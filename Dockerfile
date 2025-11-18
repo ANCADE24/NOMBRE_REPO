@@ -5,4 +5,4 @@ FROM n8nio/n8n:latest
 EXPOSE 5678
 
 # comando por defecto (la imagen oficial ya inicia n8n)
-CMD ["n8n", "start"]
+CMD ["n8n"]
