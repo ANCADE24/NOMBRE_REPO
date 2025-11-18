@@ -1,8 +1,8 @@
-# usa la imagen oficial de n8n
-FROM n8nio/n8n:latest
+# Imagen oficial de n8n
+FROM docker.n8n.io/n8n:latest
 
-# expone el puerto
+# Exponer el puerto que usa n8n
 EXPOSE 5678
 
-# comando por defecto (la imagen oficial ya inicia n8n)
+# Comando por defecto
 CMD ["n8n"]
